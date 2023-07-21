@@ -1,0 +1,299 @@
+@import 'src/styles/variables';
+
+@font-face {
+    font-family: "icomoon";
+    // src:  url("../assets/fonts/MLCAN.eot");
+    src:  url('../assets/fonts/MLCAN.eot') format('embedded-opentype'),
+      url('../assets/fonts/MLCAN.ttf') format('truetype'),
+      url('../assets/fonts/MLCAN.woff') format('woff'),
+      url('../assets/fonts/MLCAN.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-add-photo .path1:before {
+    content: "\e900";
+    color: rgb(148, 158, 169);
+  }
+  .icon-add-photo .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(49, 149, 131);
+  }
+  .icon-alert .path1:before {
+    content: "\e902";
+    color: rgb(254, 236, 209);
+  }
+  .icon-alert .path2:before {
+    content: "\e903";
+    margin-left: -1em;
+    color: rgb(249, 159, 28);
+  }
+  .icon-alert .path3:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(249, 159, 28);
+  }
+  .icon-alert .path4:before {
+    content: "\e905";
+    margin-left: -1em;
+    color: rgb(249, 159, 28);
+  }
+  .icon-next-black .path1:before {
+    content: "\e906";
+    color: rgb(67, 73, 92);
+  }
+  .icon-next-black .path2:before {
+    content: "\e907";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-next .path1:before {
+    content: "\e908";
+    color: rgb(233, 237, 240);
+  }
+  .icon-next .path2:before {
+    content: "\e909";
+    margin-left: -1em;
+    color: rgb(148, 158, 169);
+  }
+  .icon-photo-icon .path1:before {
+    content: "\e90a";
+    color: rgb(255, 255, 255);
+  }
+  .icon-photo-icon .path2:before {
+    content: "\e90b";
+    // margin-left: -1em;
+    color: rgb(217, 48, 37);
+  }
+  .icon-previous-blac .path1:before {
+    content: "\e90c";
+    color: rgb(67, 73, 92);
+  }
+  .icon-previous-blac .path2:before {
+    content: "\e90d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-previous .path1:before {
+    content: "\e90e";
+    color: rgb(233, 237, 240);
+  }
+  .icon-previous .path2:before {
+    content: "\e90f";
+    margin-left: -1em;
+    color: rgb(148, 158, 169);
+  }
+  .icon-sort-asc .path1:before {
+    content: "\e910";
+    color: rgb(49, 149, 131);
+  }
+  .icon-sort-asc .path2:before {
+    content: "\e911";
+    margin-left: -1em;
+    color: rgb(180, 214, 210);
+  }
+  .icon-sort-default:before {
+    content: "\e912";
+    color: #c0c7cf;
+  }
+  .icon-sort-desc .path1:before {
+    content: "\e913";
+    color: rgb(49, 149, 131);
+  }
+  .icon-sort-desc .path2:before {
+    content: "\e914";
+    margin-left: -1em;
+    color: rgb(180, 214, 210);
+  }
+  .icon-accordion-closed:before {
+    content: "\e915";
+    color: #7b858e;
+  }
+  .icon-accordion-open:before {
+    content: "\e916";
+    color: #7b858e;
+  }
+  .icon-add:before {
+    content: "\e917";
+    color:#319583;
+    height: 34px;
+    width: 34px;
+  
+  }
+  .icon-back:before {
+    content: "\e918";
+    color: #7b858e;
+  }
+  .icon-calendar:before {
+    content: "\e919";
+    color: #7b858e;
+  }
+  .icon-call:before {
+    content: "\e91a";
+    color: #7b858e;
+  }
+  .icon-close:before {
+    content: "\e91b";
+    color: #7b858e;
+  }
+  .icon-comment:before {
+    content: "\e91c";
+    color: #7b858e;
+  }
+  .icon-container:before {
+    content: "\e91d";
+    color: #949EA9;
+    width: 16px;
+    height: 14px;
+  }
+
+  .icon-customer:before {
+    content: "\e91e";
+    color: #949EA9;
+    width: 16px;
+    height: 14px;
+  }
+  .icon-dashboard:before {
+    content: "\e91f";
+    color: #7b858e;
+  }
+  .icon-delete:before {
+    content: "\e920";
+    color: #7b858e;
+  }
+  .icon-done:before {
+    content: "\e921";
+    color: #7b858e;
+  }
+  .icon-download:before {
+    content: "\e922";
+    color: #7b858e;
+  }
+  .icon-dropdown:before {
+    content: "\e923";
+    color: #7b858e;
+  }
+  .icon-edit:before {
+    content: "\e924";
+    color: #7b858e;
+  }
+  .icon-export:before {
+    content: "\e925";
+    color: #7b858e;
+  }
+  .icon-filter:before {
+    content: "\e926";
+    color: #7b858e;
+  }
+  .icon-image:before {
+    content: "\e927";
+    color: #7b858e;
+  }
+  .icon-inspection:before {
+    content: "\e928";
+    color: #1C99F9;
+  }
+  .icon-invoice:before {
+    content: "\e929";
+    color: #7b858e;
+  }
+  .icon-logout:before {
+    content: "\e92a";
+    color:#319583;
+  }
+  .icon-mail:before {
+    content: "\e92b";
+    background-color: #fff;
+    background: none;
+    color:#319583;
+  }
+  .icon-more:before {
+    content: "\e92c";
+    color: #7b858e;
+  }
+  .icon-my-profile:before {
+    content: "\e92d";
+    color: #7b858e;
+  }
+  .icon-password:before {
+    content: "\e92e";
+    color:#319583;
+  }
+  .icon-print:before {
+    content: "\e92f";
+    color: #7b858e;
+  }
+  .icon-quote-accepted:before {
+    content: "\e930";
+    color: #7b858e;
+  }
+  .icon-quote-approved:before {
+    content: "\e931";
+    color: #7b858e;
+  }
+  .icon-quote:before {
+    content: "\e932";
+    color: #773195;
+  }
+  .icon-repair-approved:before {
+    content: "\e933";
+    color: #7b858e;
+  }
+  .icon-repair-list:before {
+    content: "\e934";
+    color:#949EA9;
+    width: 16px;
+    height: 14px;
+  }
+  .icon-repair:before {
+    content: "\e935";
+    color:#F99F1C;
+  }
+  .icon-report-placeholder:before {
+    content: "\e936";
+    color: #7b858e;
+  }
+  .icon-search:before {
+    content: "\e937";
+    color:#319583;
+    
+  }
+  .icon-unlock:before {
+    content: "\e938";
+    color: #7b858e;
+  }
+  .icon-upload-photo:before {
+    content: "\e939";
+    color: #7b858e;
+  }
+  .icon-user-management:before {
+    content: "\e93a";
+    color: #949EA9;
+    width: 16px;
+    height: 14px;
+
+    &:hover{
+      color: #319583;
+    }
+  }
+  .icon-version:before {
+    content: "\e93b";
+    color: #7b858e;
+  }

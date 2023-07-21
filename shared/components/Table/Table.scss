@@ -1,0 +1,311 @@
+@import "src/styles/variables";
+#rc-tabs-0-panel-All{
+
+    z-index: -1;
+
+}
+.input-wrapper {
+    position: relative;
+    margin-top: -16px;
+    height: 50px;
+    background-color: #F8FAFB;
+    margin-bottom: 10px;
+  
+    .icon-search:before{
+        position: absolute;
+        top: 40px;
+        left: 45px;
+        transform: translateY(-50%);
+        color: #319583;
+      }
+    input {
+        // position: relative;
+        width: 300px;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 17px;
+        margin-left: 30px;
+        border: 0.5px solid var(--unnamed-color-cfd5da);
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 0.5px solid #CFD5DA;
+        border-radius: 10px;
+        opacity: 1;
+        padding-left: 42px;
+        color:#949EA9;
+        opacity: 1;
+        margin-right: 10px;
+    }
+    .custom-button{
+
+        .icon-filter::before{
+            margin-left: -5px;
+            width: 16px;
+            height: 9px;
+            opacity: 1;
+            font-size: 9px;
+            padding-right: 8px;
+            color: #319583;
+        }
+
+        width: 95px;
+        height: 40px;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        border: 0.5px solid var(--unnamed-color-cfd5da);
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 0.5px solid #CFD5DA;
+        border-radius: 10px;
+        opacity: 1;
+        color: #949EA9;
+        font-size: 13.5px;
+
+        &.active{
+            background-color: #319583;
+            color: #FFFFFF;
+
+            .icon-filter::before{
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .dropdown-menu{
+        position: absolute;
+        top: 68px;
+        left: 340px;
+        width: 536px;
+        height: 310px;
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        border: 0.5px solid var(--unnamed-color-cfd5da);
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 24px #3E3F5E29;
+        border: 0.5px solid #CFD5DA;
+        border-radius: 12px;
+        opacity: 1;
+        z-index: 1000;
+        // background-color: palevioletred;
+    
+        .dropdown-menu__header{
+            display: inline-flex;
+            // background-color: #319583;
+            padding-top: 24px;
+            padding-bottom: 15px;
+            padding-left: 24px;
+            width: 536px;
+    
+            h4{
+                display: inline-flex;
+                font-size: 18px;
+                width: 47px;
+                height: 21px;
+                text-align: left;
+                font: normal normal medium 18px/21px ;
+                letter-spacing: 0px;
+                color: #000000;
+                opacity: 1;
+            }
+    
+            .reset-button{
+                position: absolute;
+                left: 411px;
+                // display: inline-flex;
+                // margin-left: 330px;
+                background-color: #FFFFFF;
+                border: none;
+                color: #949EA9;
+                opacity: 1;
+            }
+            .apply-button{
+                background-color: #FFFFFF;
+                left: 473px;
+                // display: inline-flex;
+                position: absolute;
+                border: none;
+                // margin-left: 30px;
+                color: #319583;
+                opacity: 1;
+            }
+        }
+
+        .dropdown-menu__select{
+            // background-color: #319583; 
+            height: 230px;
+            display: grid;
+             grid-template-columns: auto auto;
+             padding-left: 24px;
+        
+   
+            label{
+                width: 28px;
+                height: 16px;
+                color: var(--unnamed-color-949ea9);
+                text-align: left;
+                font: normal normal normal 14px/16px ;
+                letter-spacing: 0px;
+                color: #949EA9;
+                opacity: 1;
+                font-weight: 300;
+                font-size: 13.5px;
+                margin-bottom: 8px;
+
+            }
+
+            .dropdown-menu__select__date{
+                // background-color: aliceblue;
+                width: 232px;
+                height: 56px;
+                opacity: 1;
+
+
+                .icon-calendar::before{
+                    position: absolute;
+                    color:#949EA9 ;
+                    width: 15px;
+                    height: 15px;
+                    font-size: 12px;
+                    top: 3px;
+                    right: 3px
+                }
+                
+            }
+
+            .icon-dropdown::before{
+                position: absolute;
+                color:#949EA9 ;
+                width: 5px;
+                height: 5px;
+                font-size: 5px;
+                top: 7px;
+                right: 7px;
+            }
+
+            .dropdown-menu__select__activity{
+                // background-color: aliceblue;
+                width: 232px;
+                height: 56px;
+                opacity: 1;
+            }
+
+            .dropdown-menu__select__status{
+                // background-color: wheat;
+                left: 604px;
+                width: 232px;
+                height: 56px;
+                opacity: 1;
+            }
+            .dropdown-menu__select__yard{
+                // background-color: wheat;
+                left: 604px;
+                width: 232px;
+                height: 56px;
+                opacity: 1;
+            }
+
+            .dropdown-menu__select__customer{
+                // background-color: wheat;
+                left: 604px;
+                width: 232px;
+                height: 56px;
+                opacity: 1;
+            }
+        }
+        .ant-select-selector, .ant-picker-input{
+                width: 232px;
+                height: 32px;
+                background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+                border: 1px solid var(--unnamed-color-cfd5da);
+                background: #FFFFFF 0% 0% no-repeat padding-box;
+                border: 1px solid #CFD5DA;
+                border-radius: 8px !important;
+                opacity: 1;
+        }
+    }
+}
+.custom-table {
+//  height: 618px;
+// max-width: 100%;
+width: 1510px;
+z-index: -10000;
+min-height: 618px;
+// overflow: scroll;
+
+      .search-input-tab {
+        width: 300px;
+        border-radius: 6px;
+        margin-left: 15px;
+        float: right;
+        i {
+          color: $primary-color;
+        }
+
+        input {
+          height: 31px;
+        }
+
+        &:active {
+          box-shadow: none !important;
+        }
+      }
+
+
+  }
+
+  .ant-picker-input > input{
+    width: 232px;
+    height: 25px;
+    // background: #FFFFFF 0% 0% no-repeat padding-box;
+    // border: 1px solid #CFD5DA;
+    border-radius: 8px;
+    opacity: 1;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 15px;
+    border: none;
+  }
+  
+  .ant-picker-input > input:placeholder-shown {
+    text-overflow: ellipsis;
+    margin-left: 0px;
+    border: none;
+    // background-color: aquamarine;
+    width: 30px;
+    height: 30px;
+    margin-top: 17px;
+}
+
+.ant-picker-input{
+    width: 232px;
+    height: 32px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CFD5DA;
+    border-radius: 8px;
+    opacity: 1;
+    padding-left: 12px;
+}
+
+.input-wrapper .dropdown-menu .dropdown-menu__select .dropdown-menu__select__date .icon-calendar::before {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.ant-picker-clear{
+    padding-left: 10px;
+    margin-right: 8px;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-right: 18px;
+    color: #949EA9;
+}
+
+.loading-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust the height as needed */
+  }
+  
+  /* Styles for the loading spinner */
+  .custom-spin {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #1890ff; /* Adjust the color of the spinner */
+  }

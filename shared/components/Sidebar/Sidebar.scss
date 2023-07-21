@@ -1,0 +1,266 @@
+@import '../../../styles/icons';
+
+
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #252936 0% 0% no-repeat padding-box;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    position: sticky;
+  
+    img {
+      padding: 40px;
+      padding-bottom: 52px;
+    }
+  
+    .menu {
+      list-style: none; 
+  
+      .menu-item {
+        width: 240px;
+        height: 60px;
+        opacity: 1;
+        margin-left: -40px;
+        padding-top: 18px;
+        padding-left: 72px;
+  
+        i {
+          padding-right: 16px;
+          margin-left: -30px;
+        }
+  
+        a {
+          width: 200px;
+          height: 18px;
+          color: var(--unnamed-color-ffffff);
+          text-align: left;
+          font: normal normal 600 15px;
+          letter-spacing: 0px;
+          color: #949EA9;
+          opacity: 1;
+          margin-top: 18px;
+        }
+  
+
+        &:hover {
+            .icon-container::before{
+                color: #43C9B1;
+            }
+            .icon-customer::before {
+              color: #43C9B1;
+            }
+
+            .icon-repair-list:before{
+                color: #43C9B1;
+            }
+
+            .icon-user-management:before{
+                color: #43C9B1;
+            }
+            
+        }
+        &.active {
+    
+            background-color:#303645;
+          
+            .icon-container::before {
+                color: #43C9B1;
+              }
+              .icon-customer::before {
+                color: #43C9B1;
+              }
+  
+              .icon-repair-list:before{
+                  color: #43C9B1;
+              }
+  
+              .icon-user-management:before{
+                  color: #43C9B1;
+              }
+          i {
+            color: green; 
+          }
+  
+          a {
+            color: white; 
+          }
+
+        }
+      }
+    }
+    .sidebar-bottom {
+      button.user-button {
+        display: flex;
+      width: 210px;
+      height: 62px;
+      background: #303645 0% 0% no-repeat padding-box;
+      border-radius: 6px;
+      opacity: 1;
+      margin: 15px 15px 15px ;
+      margin-top: 350px;
+      border: none;
+    
+        img {
+        display: flex;
+        // position: absolute;
+        width: 38px;
+        height: 38px;
+        padding: 0px;
+        margin-top: 12px;
+        margin-left: 7px;
+        }
+    
+        span {
+          width: 110px;
+          height: 16px;
+          color: var(--unnamed-color-ffffff);
+          font: normal normal medium 14px/16px ;
+          letter-spacing: 0px;
+          color: #FFFFFF;
+          opacity: 1;
+          margin-top: 12px;
+          margin-left: 10px;
+        }
+        h5{
+          // display: flex;
+        width: 32px;
+        height: 10px;
+        font-size: 12px;
+        color: var(--unnamed-color-949ea9);
+        text-align: left;
+        margin-top: 36px;
+        margin-left: -106px;
+        letter-spacing: 0px;
+        color: #949EA9;
+        opacity: 1;
+        }
+      }
+    
+      .dropdown-menu {
+        position: absolute;
+        top: 490px;
+        left: 15px;
+        width: 259px;
+        height: 245px;
+        background: #303645 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 10px #00000033;
+        border-radius: 6px;
+        opacity: 1;
+        padding-top:20px;
+        padding-left: 20px;
+        border: none;
+        z-index: 99999999;
+        .dropdown-menu__name{
+          display: flex;
+          top: 461px;
+          // background-color:wheat;
+          width: 239px;
+          height: 63px;
+          border-bottom: #42464b 0.1px solid;
+          left: 39px;
+          opacity: 1;
+          
+          .name-icon{
+            // position: absolute;
+            text-align: center;
+            letter-spacing: 0px;
+            opacity: 1;
+            width: 43px;
+            height: 43px;
+            background-color: #43C9B1 ;
+            opacity: 0.1;
+            border-radius: 1.3rem;
+            border: none;
+            
+          }
+          .text{
+            margin-left: -31px;
+            margin-top: 10px ;
+            color: #43C9B1;
+          }
+          h3{
+            display: flex;
+            // margin-top: 24px;
+            margin-left:22px;
+            width: 126px;
+            height: 21px;
+            color: var(--unnamed-color-ffffff);
+            text-align: left;
+            font: normal normal 600 18px ;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            opacity: 1;
+          }
+          h5{
+            display: flex;
+          width: 120px;
+          height: 20px;
+          font-size: 11px;
+          color: var(--unnamed-color-949ea9);
+          text-align: left;
+          margin-top: 28px;
+          margin-left: -125px;
+          letter-spacing: 0px;
+          color: #949EA9;
+          // background-color: aqua;
+          opacity: 1;
+          }
+        
+        }
+        .dropdown-menu__email{
+          // background-color: #43C9B1;
+          height: 95px;
+          padding-top: 18px;
+          padding-left: 10px;
+          border-bottom: #42464b 0.1px solid;
+
+          h4{
+            color: #CFD5DA;
+            font-size: 13px;
+            padding-bottom: 10px;
+
+            .icon-mail:before{
+              color: #949EA9;
+              font-size: smaller;
+              padding-right: 10px;
+            }
+          }
+         .dropdown-menu__email__phone{
+          h4{
+            color: #CFD5DA;
+            font-size: 13px;
+
+            .icon-call:before{
+              color: #949EA9;
+              font-size: smaller;
+              padding-right: 12px;
+            }
+         } 
+  
+        }
+        .dropdown-menu__logout{
+          padding-top: 23px;
+
+          button{
+          width: 100px;
+            margin-left: -10px;
+            justify-content: left;
+            color: #CFD5DA;
+            background: none;
+            border: none;
+
+            .icon-logout:before{
+              font-size: smaller;
+              margin-left: -8px;
+              padding-right: 9px;
+            }
+        }
+      }
+  
+      }
+    }
+    
+  }
+  }

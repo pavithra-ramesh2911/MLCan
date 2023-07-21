@@ -1,0 +1,28 @@
+@import "variables";
+@import "helpers";
+@import "@antOverrides";
+@import "icons";
+
+// @font-face {
+//   font-family: 'icomoon';
+//   src:  local("icomoon"),local('Gilroy'), url('../assets/fonts/MLCAN.eot') format('embedded-opentype')
+// }
+/* General component styles */
+body {
+  background-color: #FFFFFF;
+  // background: none;
+  color: $primary-black;
+  overflow-x: hidden;
+  // background: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+input {
+  font-family: 'Roboto', sans-serif ;
+}
